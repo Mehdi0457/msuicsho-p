@@ -270,12 +270,11 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
  `)
    message.channel.sendEmbed(embed)
    
+
    }
    });
  
  
- client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "523338083530309643" && ch.type === 'voice').join();
-});
+ 
  
 client.login(process.env.BOT_TOKEN);
